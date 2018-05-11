@@ -17,7 +17,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FFF;
+    background-color: #fff;
     font-family: Helvetica, sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 h2 {
-    color: #FFF;
+    color: #fff;
 }
 
 a {
@@ -43,7 +43,7 @@ header {
 
 .logo, .header__2, .header__icons {
     margin: 10px 20px;
-    color: #FFF;
+    color: #fff;
 }
 
 .logo {
@@ -56,8 +56,8 @@ header {
 .header__icons {
     float: right;
     font-size: 32px;
-    color: #FFF;
-    text-shadow: 0 5px 15px #219A39;
+    color: #fff;
+    text-shadow: 0 5px 15px #219a39;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ main {
 }
 
 .about_me {
-    background-color: #35E367;
+    background-color: #35e367;
 }
 
 .mobile-arrow {
@@ -79,8 +79,8 @@ main {
     top: 92vh;
     font-size: 34px;
     text-align: center;
-    color: #FFF;
-    text-shadow: 0 5px 15px #219A39;
+    color: #fff;
+    text-shadow: 0 5px 15px #219a39;
 }
 
 /* *** DIVIDER *** */
@@ -97,7 +97,7 @@ main {
 
 /* *** WORK *** */
 .work {
-    background: #E20086;  /* fallback for old browsers */
+    background: #e20086;  /* fallback for old browsers */
     background-image: url("http://res.cloudinary.com/spoiledkidneybeans-squarespace-com/image/upload/v1524014832/assembly_14_uln6t2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,8 +125,8 @@ main {
 .work__1, .work__2, .work__3, .work__4 {
     width: 300px;
     height: 300px;
-    border: 4px solid #FFF;
-    box-shadow: 0px 5px 25px #B20162;
+    border: 4px solid #fff;
+    box-shadow: 0px 5px 25px #b20162;
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -142,11 +142,11 @@ main {
 }
 
 .work__3 {
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 .work__4 {
-    background-color: #FF002C;
+    background-color: #ff002c;
 }
 
 .work__img {
@@ -199,11 +199,11 @@ main {
     font-weight: 800;
     text-shadow: 0 5px 25px #000;
     text-align: center;
-    color: #EAE667;
+    color: #eAe667;
 }
 
 .work__description {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     text-shadow: 0 5px 25px #000;
     font-size: 14px;
@@ -217,7 +217,7 @@ main {
     text-align: center;
     margin: 0 auto;
    
-    color: #FFF;
+    color: #fff;
     font-weight: 800;
     display: block;
 }
@@ -231,7 +231,7 @@ main {
 .work__card i {
     text-align: center;
     font-size: 3em;
-    color: #FFF;
+    color: #fff;
     text-shadow: 0 10px 25px #000;
 }
 
@@ -239,14 +239,14 @@ main {
 footer {
     background-color: #222;
     height: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer__icons {
     display: flex;
     justify-content: center;
     font-size: 32px;
-    color: #FFF;
+    color: #fff;
     text-shadow: 0 5px 15px #000;
     cursor: pointer;
 }

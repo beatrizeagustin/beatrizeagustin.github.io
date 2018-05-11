@@ -5,17 +5,17 @@
 
 /* container */
 #logo {
-  position: absolute;
+    position: absolute;
     left: 0;
     right: 0;
-  top: 35%;
-  width: 450px;
-  margin: 0 auto;
-  height: 250px;
-  padding: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
+    top: 35%;
+    width: 450px;
+    margin: 0 auto;
+    height: 250px;
+    padding: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
 
 }
 
@@ -23,7 +23,7 @@
   font-family: 'Schoolbell', cursive;
   font-size: 18px;
   text-align: center;
-  color: #2F2D30;
+  color: #2f2d30;
   text-transform: uppercase;
 }
 
@@ -48,7 +48,7 @@
 
 .mainBackground {
   position: absolute;
-  background: #BD9BEE;
+  background: #bd9Bee;
   width: 340px;
   height: 150px;
   top: 45px;
@@ -61,7 +61,7 @@
     font-family: SchoolBell, cursive;
     text-align: center;
     font-size: 2.6em;
-    color: #FFF;
+    color: #fff;
     line-height: 50px;
     margin-top: 20px;
 }
@@ -104,8 +104,8 @@
 }
 
 .jaggedShape1, .jaggedShape1:before, .jaggedShape1:after {
-  background: #7582BD;
-  border: 7px solid #7582BD;
+  background: #7582bd;
+  border: 7px solid #7582bd;
   width: 65px;
   height: 120px;
   transform: skew(3deg, 15deg);
@@ -137,8 +137,8 @@
 }
 
 .jaggedShape2, .jaggedShape2:before, .jaggedShape2:after {
-  background: #7582BD;
-  border: 7px solid #7582BD;
+  background: #7582bd;
+  border: 7px solid #7582bd;
   width: 35px;
   height: 50px;
   transform: skew(10deg, -40deg);
@@ -169,8 +169,8 @@
 
 .jaggedShape3 {
   position: absolute;
-  background: #7582BD;
-  border: 5px solid #7582BD;
+  background: #7582bd;
+  border: 5px solid #7582bd;
   width: 95px;
   height: 50px;
   transform: skew(-10deg, -10deg);
@@ -181,8 +181,8 @@
 .jaggedShape3:before {
   content: "";
   display: block;
-  background: #7582BD;
-  border: 6px solid #7582BD;
+  background: #7582bd;
+  border: 6px solid #7582bd;
   width: 80px;
   height: 130px;
   transform: rotate(-40deg);
@@ -194,8 +194,8 @@
 .jaggedShape3:after {
   content: "";
   display: block;
-  background: #7582BD;
-  border: 7px solid #7582BD;
+  background: #7582bd;
+  border: 7px solid #7582bd;
   width: 140px;
   height: 60px;
   transform: skew(20deg, 20deg);
@@ -206,8 +206,8 @@
 
 .jaggedShape4 {
   position: absolute;
-  background: #7582BD;
-  border: 9px solid #7582BD;
+  background: #7582bd;
+  border: 9px solid #7582bd;
   width: 95px;
   height: 50px;
   transform: skew(20deg, 20deg);
@@ -219,8 +219,8 @@
   content: "";
   display: block;
   position: relative;
-  background: #7582BD;
-  border: 7px solid #7582BD;
+  background: #7582bd;
+  border: 7px solid #7582bd;
   width: 25px;
   height: 55px;
   transform: rotate(50deg);
@@ -232,8 +232,8 @@
   content: "";
   display: block;
   position: relative;
-  background: #7582BD;
-  border: 6px solid #7582BD;
+  background: #7582bd;
+  border: 6px solid #7582bd;
   width: 185px;
   height: 105px;
   transform: skew(-30deg, -30deg);
@@ -243,8 +243,8 @@
 
 .jaggedShape5 {
   position: absolute;
-  background: #7582BD;
-  border: 7px solid #7582BD;
+  background: #7582bd;
+  border: 7px solid #7582bd;
   width: 70px;
   height: 40px;
   transform: skew(-60deg);
@@ -262,8 +262,8 @@
 }
 
 .jaggedShape1B, .jaggedShape1B:before, .jaggedShape1B:after {
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 65px;
   height: 120px;
   transform: skew(3deg, 15deg);
@@ -294,8 +294,8 @@
 }
 
 .jaggedShape2B {
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 35px;
   height: 50px;
   transform: skew(10deg, -40deg);
@@ -307,8 +307,8 @@
 .jaggedShape2B:before {
   content: "";
   display: block;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 75px;
   height: 50px;
   transform: rotate(15deg);
@@ -320,8 +320,8 @@
 .jaggedShape2B:after {
   content: "";
   display: block;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 45px;
   height: 50px;
   transform: rotate(25deg);
@@ -332,8 +332,8 @@
 
 .jaggedShape3B {
   position: absolute;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 95px;
   height: 50px;
   transform: skew(-10deg, -10deg);
@@ -344,8 +344,8 @@
 .jaggedShape3B:before {
   content: "";
   display: block;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 80px;
   height: 130px;
   transform: rotate(-40deg);
@@ -357,8 +357,8 @@
 .jaggedShape3B:after {
   content: "";
   display: block;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 140px;
   height: 60px;
   transform: skew(20deg, 20deg);
@@ -369,8 +369,8 @@
 
 .jaggedShape4B {
   position: absolute;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 95px;
   height: 50px;
   transform: skew(20deg, 20deg);
@@ -382,8 +382,8 @@
   content: "";
   display: block;
   position: relative;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 25px;
   height: 55px;
   transform: rotate(50deg);
@@ -395,8 +395,8 @@
   content: "";
   display: block;
   position: relative;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 175px;
   height: 105px;
   transform: skew(-30deg, -30deg);
@@ -406,8 +406,8 @@
 
 .jaggedShape5B {
   position: absolute;
-  background: #BD9BEE;
-  border: 7px solid #BD9BEE;
+  background: #bd9bee;
+  border: 7px solid #bd9bee;
   width: 70px;
   height: 40px;
   transform: skew(-60deg);
