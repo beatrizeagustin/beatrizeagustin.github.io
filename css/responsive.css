@@ -1,0 +1,21 @@
+@media screen and (min-width: 460px) and (max-width: 550px) {
+    #logo {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 459px) {
+    #logo {
+        transform: scale(0.7);
+        position: absolute;
+        left: -15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+     #logo {
+        transform: scale(0.65);
+        position: absolute;
+        left: -30px;
+    }
+}
