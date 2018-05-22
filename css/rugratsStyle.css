@@ -31,7 +31,7 @@
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background-image: url("http://res.cloudinary.com/spoiledkidneybeans-squarespace-com/image/upload/v1523591750/assembly_10_nmqxxb.png");
+  background-image: url("/assets/assembly%2010.png");
   background-size: cover;
   overflow: hidden;
 }
