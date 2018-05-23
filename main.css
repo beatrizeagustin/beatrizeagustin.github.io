@@ -95,12 +95,139 @@ main {
     margin: 0;
 }
 
+/* *** ABOUT *** */
+.about {
+    background: #bd9Bee;  /* fallback for old browsers */
+    background-image: url("assets/assembly%201010.png"); /* fallback */
+    background-image: url("assets/assembly%201010.png"), linear-gradient(160deg, #bd9Bee 50%, #D6FDFF);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.about__content {
+    width: 800px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.about__description {
+    display: flex;
+    align-items: center;
+    font-family: helvetica, sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.about__profile {
+    width: 300px;
+    margin: 50px;
+}
+
+.about__profile_shadow {
+    background-color: transparent;
+    box-shadow: 0px 5px 20px #8464B2;
+    border-radius: 50%; 
+}
+/* *** PROFILE ANIMATION *** */
+.about__desciption span {
+    display: inline-block;
+}
+
+.eyes, .eyes::before {
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: radial-gradient(#fff 40%, #bbb);
+    border: 2px solid #222;
+    border-radius: 50%;
+    top: 165px;
+    left: 130px;
+}
+
+.eyes::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 70px;
+}
+
+.pupils, .pupils2 {
+    z-index: 200;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #222;
+    border-radius: 50%;
+    top: 170px;
+    left: 130px;
+}
+
+.pupils2 {
+    top: 170px;
+    left: 205px;
+}
+
+.pupils {
+    animation: eyes 3s linear infinite;
+    transform-origin: 22px 15px;
+}
+
+.pupils2 {
+    animation: eyes 3s linear infinite reverse;
+    transform-origin: 20px 5px;
+}
+
+@keyframes eyes {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+
+.bubble {
+    z-index: 200;
+    width: 95px;
+    height: 90px;
+    background-color: #FF83FD;
+    border: 4px solid #EF7BED;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px #222;
+    position: absolute;
+    top: 197px;
+    left: 150px;
+    animation:  4s pop ease infinite;
+}
+
+.bubble::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    opacity: 0.8
+}
+
+@keyframes pop {
+    0% {transform: scale(0)}
+    100% {transform: scale(1); opacity: 0.92}
+}
+
 /* *** WORK *** */
 .work {
     background: #e20086;  /* fallback for old browsers */
     background-image: url("http://res.cloudinary.com/spoiledkidneybeans-squarespace-com/image/upload/v1524014832/assembly_14_uln6t2.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: bottom;
     width: 100%;
     height: auto; /* auto */
@@ -249,6 +376,10 @@ footer {
     color: #fff;
     text-shadow: 0 5px 15px #000;
     cursor: pointer;
+}
+
+footer i {
+    padding: 0 20px;
 }
 
  
