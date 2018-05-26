@@ -17,6 +17,10 @@
         left: -10px;
     }
     
+    .mobile-arrow {
+        top: 85vh;
+}
+    
     .about__content {
         width: 380px;
         margin: 0 auto;
