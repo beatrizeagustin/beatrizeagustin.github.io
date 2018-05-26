@@ -70,6 +70,10 @@
         left: -30px;
     }
     
+    .mobile-arrow {
+        top: 85vh;
+    }
+    
     .about__content {
         width: 360px;
         margin: 0 auto;
