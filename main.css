@@ -34,6 +34,12 @@ h2 {
 a {
     text-decoration: none;
 }
+
+.section__header {
+    font-family: SchoolBell, sans-serif;
+    font-size: 38px;
+    text-align: center;
+}
 /* *** HEADER *** */
 header {
     position: absolute;
@@ -57,7 +63,7 @@ header {
     float: right;
     font-size: 32px;
     color: #fff;
-    text-shadow: 0 5px 15px #219a39;
+    text-shadow: 0 5px 15px #C38C83;
     cursor: pointer;
 }
 
@@ -71,7 +77,7 @@ main {
 }
 
 .about_me {
-    background-color: #35e367;
+    background-color: #F4B7A5; /* #35e367 */
 }
 
 .mobile-arrow {
@@ -80,7 +86,7 @@ main {
     font-size: 34px;
     text-align: center;
     color: #fff;
-    text-shadow: 0 5px 15px #219a39;
+    text-shadow: 0 1px 15px #C38C83;
 }
 
 /* *** DIVIDER *** */
@@ -97,49 +103,52 @@ main {
 
 /* *** ABOUT *** */
 .about {
-    background: #bd9Bee;  /* fallback for old browsers */
-    background-image: url("assets/assembly%201010.png"); /* fallback */
-    background-image: url("assets/assembly%201010.png"), linear-gradient(160deg, #bd9Bee 50%, #D6FDFF);
+    background: #bd9bee;
+    background-image: url("assets/assembly%201010.png");
     background-size: contain;
     background-repeat: repeat;
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 100%; 
+    padding: 50px 0;
 }
 
 .about__content {
     width: 800px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .about__description {
-    display: flex;
-    align-items: center;
+    width: 100%;
     font-family: helvetica, sans-serif;
-    font-size: 24px;
-    color: #fff;
+    font-size: 18px;
+    color: #000000;
+    margin: 0 auto;
 }
 
 .about__profile {
     width: 300px;
-    margin: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .about__profile_shadow {
     background-color: transparent;
-    box-shadow: 0px 5px 20px #8464B2;
+    box-shadow: 0px 5px 20px #7D5AA6;
     border-radius: 50%; 
 }
-/* *** PROFILE ANIMATION *** */
-.about__desciption span {
-    display: inline-block;
+
+/* *** PROFILE ANIMATIONS *** */
+.animated_profile {
+    width: 100%;
+    position: relative;
+    display: block;
 }
 
-.eyes, .eyes::before {
+.eyes, .eyes2 {
+    display: block;
     z-index: 100;
     width: 40px;
     height: 40px;
@@ -147,32 +156,32 @@ main {
     background: radial-gradient(#fff 40%, #bbb);
     border: 2px solid #222;
     border-radius: 50%;
-    top: 165px;
-    left: 130px;
+    bottom: 175px;
+    left: 330px;
 }
 
-.eyes::before {
-    content: "";
+.eyes2 {
     display: block;
-    position: relative;
-    top: -15px;
-    left: 70px;
+    position: absolute;
+    bottom: 190px;
+    left: 400px;
 }
 
 .pupils, .pupils2 {
+    display: block;
     z-index: 200;
     width: 20px;
     height: 20px;
     position: absolute;
     background: #222;
     border-radius: 50%;
-    top: 170px;
-    left: 130px;
+    bottom: 192px;
+    left: 330px;
 }
 
 .pupils2 {
-    top: 170px;
-    left: 205px;
+    bottom: 196px;
+    left: 403px;
 }
 
 .pupils {
@@ -191,6 +200,7 @@ main {
 }
 
 .bubble {
+    display: block;
     z-index: 200;
     width: 95px;
     height: 90px;
@@ -199,8 +209,8 @@ main {
     border-radius: 50%;
     box-shadow: 0 5px 20px #222;
     position: absolute;
-    top: 197px;
-    left: 150px;
+    bottom: 90px;
+    left: 350px;
     animation:  4s pop ease infinite;
 }
 
@@ -224,21 +234,16 @@ main {
 
 /* *** WORK *** */
 .work {
-    background: #e20086;  /* fallback for old browsers */
+    background: #cc0066;
     background-image: url("http://res.cloudinary.com/spoiledkidneybeans-squarespace-com/image/upload/v1524014832/assembly_14_uln6t2.png");
     background-size: cover;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-position: bottom;
     width: 100%;
     height: auto; /* auto */
     padding: 30px 0 100px;
     overflow: hidden;
-}
-
-.work__header {
-    font-family: SchoolBell, sans-serif;
-    font-size: 28px;
-    text-align: center;
+    margin: 0;
 }
 
 .work__content {

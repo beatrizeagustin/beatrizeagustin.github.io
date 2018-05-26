@@ -2,20 +2,115 @@
     #logo {
         transform: scale(0.8);
     }
-}
-
-@media screen and (max-width: 459px) {
-    #logo {
-        transform: scale(0.7);
-        position: absolute;
-        left: -15px;
+    
+     .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
     }
 }
 
-@media screen and (max-width: 380px) {
-     #logo {
+
+@media screen and (max-width: 414px) {
+    #logo {
+        transform: scale(0.7);
+        position: absolute;
+        left: -10px;
+    }
+    
+    .about__content {
+        width: 380px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .about__profile, .about__description {
+        width: 300px;
+        margin: 20px auto;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 175px;
+        left: 80px;
+    }
+
+    .eyes2 {
+        bottom: 195px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 192px;
+        left: 80px;
+    }
+
+    .pupils2 {
+        bottom: 201px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 90px;
+        left: 100px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #logo {
         transform: scale(0.65);
         position: absolute;
         left: -30px;
     }
+    
+    .about__content {
+        width: 360px;
+        margin: 0 auto;
+        padding: 0;
+    }
+  
+    .about__description {
+        width: 300px;
+        margin: 20px auto;
+        padding: 0;
+    }
+    
+    .about__profile {
+        width: 250px;
+        margin: 20px 25px;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 140px;
+        left: 90px;
+    }
+
+    .eyes2 {
+        bottom: 155px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 157px;
+        left: 90px;
+    }
+
+    .pupils2 {
+        bottom: 161px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 66px;
+        left: 100px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+    
 }
