@@ -40,6 +40,11 @@ a {
     font-size: 38px;
     text-align: center;
 }
+
+hr {
+    margin: 50px;
+    border: 1px solid #fff;
+}
 /* *** HEADER *** */
 header {
     position: absolute;
@@ -77,7 +82,8 @@ main {
 }
 
 .about_me {
-    background-color: #F4B7A5; /* #35e367 */
+    background-color: #FEC095; /* #35e367 */
+    
 }
 
 .mobile-arrow {
@@ -244,6 +250,12 @@ main {
     padding: 30px 0 100px;
     overflow: hidden;
     margin: 0;
+}
+
+.work__header_description {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
 }
 
 .work__content {

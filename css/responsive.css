@@ -17,6 +17,10 @@
         left: -10px;
     }
     
+    #rugBackground {
+        background-size: 100vh;
+    }
+
     .mobile-arrow {
         top: 85vh;
 }
@@ -70,6 +74,10 @@
         left: -30px;
     }
     
+    #rugBackground {
+        background-size: 100vh;
+    }
+
     .mobile-arrow {
         top: 85vh;
     }
