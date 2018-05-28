@@ -114,7 +114,8 @@
 @media screen and (max-width: 375px) {
     #logo {
         transform: scale(0.65);
-        position: absolute;
+        position: relative;
+        top: 33vh;
         left: -30px;
     }
     
