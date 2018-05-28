@@ -1,3 +1,46 @@
+@media screen and (min-width: 551px) and (max-width: 770px) {
+    .about__content {
+        width: 600px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .about__description {
+        width: 450px;
+        margin: 20px auto;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 175px;
+        left: 160px;
+    }
+
+    .eyes2 {
+        bottom: 190px;
+        left: 228px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 192px;
+        left: 160px;
+    }
+
+    .pupils2 {
+        bottom: 199px;
+        left: 230px;
+    }
+    
+    .bubble {
+        bottom: 91px;
+        left: 175px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+}
+
 @media screen and (min-width: 460px) and (max-width: 550px) {
     #logo {
         transform: scale(0.8);
