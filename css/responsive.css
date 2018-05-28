@@ -62,12 +62,12 @@
     
     #rugBackground {
         background-size: 145vh;
-        background-position: bottom
+        background-position: bottom;
     }
 
     .mobile-arrow {
         top: 85vh;
-}
+    }
     
     .about__content {
         width: 380px;
@@ -114,7 +114,7 @@
 @media screen and (max-width: 375px) {
     #logo {
         transform: scale(0.65);
-        position: relative;
+        position: absolute;
         top: 33vh;
         left: -30px;
     }
