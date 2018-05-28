@@ -61,7 +61,8 @@
     }
     
     #rugBackground {
-        background-size: 100vh;
+        background-size: 145vh;
+        background-position: bottom
     }
 
     .mobile-arrow {
@@ -118,7 +119,8 @@
     }
     
     #rugBackground {
-        background-size: 100vh;
+        background-size: 145vh;
+        background-position: bottom;
     }
 
     .mobile-arrow {
