@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (min-width: 460px) and (max-width: 550px) {
+@media screen and (min-width: 415px) and (max-width: 550px) {
     #logo {
         transform: scale(0.8);
     }
@@ -49,6 +49,46 @@
      .work {
         background-size: 150vh;
         background-repeat: no-repeat;
+    }
+    
+    .about {
+        height: auto;
+    }
+    
+    .about__content {
+        width: 380px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .about__profile, .about__description {
+        width: 300px;
+        margin: 20px auto;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 175px;
+        left: 80px;
+    }
+
+    .eyes2 {
+        bottom: 195px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 192px;
+        left: 80px;
+    }
+
+    .pupils2 {
+        bottom: 201px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 90px;
+        left: 100px;
     }
 }
 
@@ -109,7 +149,6 @@
     }
     
     .work {
-        height: auto;
         background-size: 150vh;
         background-repeat: no-repeat;
     }
@@ -180,7 +219,6 @@
     }
     
     .work {
-        height: auto;
         background-size: 150vh;
         background-repeat: no-repeat;
     }
@@ -252,7 +290,6 @@
     }
     
     .work {
-        height: auto;
         background-size: 150vh;
         background-repeat: no-repeat;
     }
