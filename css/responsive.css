@@ -1,4 +1,7 @@
 @media screen and (min-width: 551px) and (max-width: 770px) {
+    .about {
+        padding: 50px 0
+    }
     .about__content {
         width: 600px;
         margin: 0 auto;
@@ -52,7 +55,7 @@
     }
 }
 
-
+/* iPhone 6 7 8 Plus */
 @media screen and (max-width: 414px) {
     #logo {
         transform: scale(0.7);
@@ -62,11 +65,14 @@
     
     #rugBackground {
         background-size: 145vh;
-        background-position: bottom;
     }
 
     .mobile-arrow {
         top: 85vh;
+    }
+    
+    .about {
+        height: auto;
     }
     
     .about__content {
@@ -111,6 +117,7 @@
     }
 }
 
+/* iPhone 6 7 8 */
 @media screen and (max-width: 375px) {
     #logo {
         transform: scale(0.65);
@@ -126,6 +133,10 @@
 
     .mobile-arrow {
         top: 85vh;
+    }
+    
+    .about {
+        height: auto;
     }
     
     .about__content {
@@ -175,4 +186,74 @@
         background-repeat: no-repeat;
     }
     
+}
+
+/* iPhone 5 */
+@media screen and (max-width: 320px) {
+    #logo {
+        transform: scale(0.5);
+        position: absolute;
+        top: 28vh;
+        left: -55px;
+    }
+    
+    #rugBackground {
+        background-size: 145vh;
+        background-position: center;
+    }
+
+    .mobile-arrow {
+        top: 85vh;
+    }
+    
+    .about {
+        height: auto;
+    }
+    
+    .about__content {
+        width: 320px;
+        margin: 0 auto;
+        padding: 0;
+    }
+  
+    .about__description {
+        width: 300px;
+        margin: 20px auto;
+        padding: 0;
+    }
+    
+    .about__profile {
+        width: 250px;
+        margin: 20px 25px;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 140px;
+        left: 90px;
+    }
+
+    .eyes2 {
+        bottom: 155px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 157px;
+        left: 90px;
+    }
+
+    .pupils2 {
+        bottom: 161px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 66px;
+        left: 100px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
 }
