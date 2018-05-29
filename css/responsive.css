@@ -1,7 +1,4 @@
 @media screen and (min-width: 551px) and (max-width: 770px) {
-    .about {
-        padding: 50px 0
-    }
     .about__content {
         width: 600px;
         margin: 0 auto;
@@ -112,6 +109,7 @@
     }
     
     .work {
+        height: auto;
         background-size: 150vh;
         background-repeat: no-repeat;
     }
@@ -182,6 +180,7 @@
     }
     
     .work {
+        height: auto;
         background-size: 150vh;
         background-repeat: no-repeat;
     }
@@ -253,6 +252,7 @@
     }
     
     .work {
+        height: auto;
         background-size: 150vh;
         background-repeat: no-repeat;
     }
