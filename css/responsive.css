@@ -90,6 +90,14 @@
         bottom: 90px;
         left: 100px;
     }
+    
+    .section__description {
+        width: 310px;
+}
+    
+    form, input, textarea {
+        width: 300px;
+}
 }
 
 /* iPhone 6 7 8 Plus */
@@ -152,6 +160,15 @@
         background-size: 150vh;
         background-repeat: no-repeat;
     }
+    
+    .section__description {
+        width: 310px;
+        font-size: 1em;
+}
+    
+    form, input, textarea {
+        width: 300px;
+}
 }
 
 /* iPhone 6 7 8 */
@@ -223,6 +240,14 @@
         background-repeat: no-repeat;
     }
     
+    .section__description {
+        width: 310px;
+}
+    
+    form, input, textarea {
+        width: 300px;
+}
+    
 }
 
 /* iPhone 5 */
@@ -293,4 +318,13 @@
         background-size: 150vh;
         background-repeat: no-repeat;
     }
+    
+    .section__description {
+        width: 280px;
+        font-size: 1em;
+}
+    
+    form, input, textarea {
+        width: 250px;
+}
 }
