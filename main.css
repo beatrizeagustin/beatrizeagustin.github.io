@@ -554,7 +554,14 @@ footer {
 }
 
 .footer__icons {
-    display: flex;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.footer__icons li {
+    list-style: none;
+    display: inline-block;
     justify-content: center;
     font-size: 32px;
     color: #fff;
@@ -565,13 +572,14 @@ footer {
 .footer_content {
     color: #fff;
     font-size: 14px;
-    width: 400px;
-    margin: 15px auto;
+    
+    margin: 10px auto;
     text-align: center;
 }
 
 footer i {
-    padding: 0 20px;
+    padding: 10px;
+    margin: 0 10px
 }
 
  
