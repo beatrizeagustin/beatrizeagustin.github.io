@@ -294,7 +294,7 @@ main {
     background-position: bottom;
     width: 100%;
     height: auto; /* auto */
-    padding: 30px 0 100px;
+    padding: 50px 0 100px;
     overflow: hidden;
     margin: 0;
 }
@@ -463,7 +463,7 @@ a.work__morelink {
     background-color: #222;
     overflow: hidden;
     color: #FFF;
-    padding-bottom: 40px;
+    padding: 50px 0 40px;
     position: relative;
 }
 

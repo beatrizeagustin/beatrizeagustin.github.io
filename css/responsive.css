@@ -98,6 +98,10 @@
     form, input, textarea {
         width: 300px;
 }
+    .error {
+        width: 300px;
+        font-size: 14px;
+    }
 }
 
 /* iPhone 6 7 8 Plus */
@@ -171,6 +175,7 @@
 }
     .error {
         width: 250px;
+        font-size: 14px;
 }
 }
 
@@ -251,7 +256,8 @@
         width: 300px;
 }
     .error {
-        width: 290px;
+        width: 300px;
+        font-size: 14px;
 }
     
 }
@@ -336,5 +342,6 @@
     
     .error {
         width: 280px;
+        font-size: 14px;
 }
 }
