@@ -465,6 +465,11 @@ a.work__morelink {
     color: #FFF;
     padding: 50px 0 40px;
     position: relative;
+    text-align: center;
+}
+
+.section__description {
+    text-align: left
 }
 
 .contact--details {
@@ -485,15 +490,15 @@ form, input, textarea {
     margin: 0 auto;
     border: none;
 }
-
-contact, input, textarea {
+/* Remove to Disable form */
+/* contact, input, textarea {
    opacity: 0.3;
 }
 
 .label-name,
 .label-email {
     opacity: 0.3;
-}
+} */
 
 #name,
 #e-mail {
