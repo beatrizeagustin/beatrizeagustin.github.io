@@ -101,7 +101,7 @@ header {
     float: right;
     font-size: 32px;
     color: #000;
-    text-shadow: 0 5px 15px #3F8BD4;
+    text-shadow: 0 5px 15px #555;
     cursor: pointer;
 }
 
@@ -116,7 +116,7 @@ main {
 }
 
 .about_me {
-    background-color: #; /* #35e367 */
+    background-color: #000; /* #35e367 */
     
 }
 
@@ -126,7 +126,7 @@ main {
     font-size: 34px;
     text-align: center;
     color: #fff;
-    text-shadow: 0 1px 25px #3F8BD4;
+    text-shadow: 0 1px 25px #555;
 }
 
 /* *** DIVIDER *** */
@@ -593,11 +593,3 @@ footer i {
     padding: 10px;
     margin: 0 10px
 }
-
- 
-
-
-
-
-
-
