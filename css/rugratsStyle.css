@@ -31,7 +31,7 @@
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background-image: url("/assets/assembly%20152.png");
+ /* background-image: url("/assets/assembly%20152.png"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@
 
 .mainBackground {
   position: absolute;
-  background: #bd9Bee;
+  background: #F7F577; /* #bd9Bee */
   width: 340px;
   height: 150px;
   top: 45px;
@@ -264,8 +264,8 @@
 }
 
 .jaggedShape1B, .jaggedShape1B:before, .jaggedShape1B:after {
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 65px;
   height: 120px;
   transform: skew(3deg, 15deg);
@@ -296,8 +296,8 @@
 }
 
 .jaggedShape2B {
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 35px;
   height: 50px;
   transform: skew(10deg, -40deg);
@@ -309,8 +309,8 @@
 .jaggedShape2B:before {
   content: "";
   display: block;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 75px;
   height: 50px;
   transform: rotate(15deg);
@@ -322,8 +322,8 @@
 .jaggedShape2B:after {
   content: "";
   display: block;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 45px;
   height: 50px;
   transform: rotate(25deg);
@@ -334,8 +334,8 @@
 
 .jaggedShape3B {
   position: absolute;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 95px;
   height: 50px;
   transform: skew(-10deg, -10deg);
@@ -346,8 +346,8 @@
 .jaggedShape3B:before {
   content: "";
   display: block;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 80px;
   height: 130px;
   transform: rotate(-40deg);
@@ -359,8 +359,8 @@
 .jaggedShape3B:after {
   content: "";
   display: block;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 140px;
   height: 60px;
   transform: skew(20deg, 20deg);
@@ -371,8 +371,8 @@
 
 .jaggedShape4B {
   position: absolute;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 95px;
   height: 50px;
   transform: skew(20deg, 20deg);
@@ -384,8 +384,8 @@
   content: "";
   display: block;
   position: relative;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 25px;
   height: 55px;
   transform: rotate(50deg);
@@ -397,8 +397,8 @@
   content: "";
   display: block;
   position: relative;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 175px;
   height: 105px;
   transform: skew(-30deg, -30deg);
@@ -408,8 +408,8 @@
 
 .jaggedShape5B {
   position: absolute;
-  background: #bd9bee;
-  border: 7px solid #bd9bee;
+  background: #F7F577;
+  border: 7px solid #F7F577;
   width: 70px;
   height: 40px;
   transform: skew(-60deg);
