@@ -1,0 +1,365 @@
+
+@media screen and (min-width: 676px) and (max-width: 786px) {
+    .about__content {
+        width: 600px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .about__description {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .about__text {
+        width: 600px;
+        margin: 0 auto;
+    }
+   
+    
+    .eyes, .eyes2 {
+        bottom: 175px;
+        left: 235px;
+    }
+
+    .eyes2 {
+        bottom: 190px;
+        left: 298px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 192px;
+        left: 235px;
+    }
+
+    .pupils2 {
+        bottom: 199px;
+        left: 298px;
+    }
+    
+    .bubble {
+        bottom: 91px;
+        left: 250px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 675px) {
+    #logo {
+        transform: scale(0.8);
+    }
+    
+     .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+    
+    .about {
+        height: auto;
+    }
+    
+    .about__content {
+        width: 450px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .about__text {
+        width: 450px;
+        margin: 0 auto;
+    }
+    
+    .about__description {
+        width: 450px;
+        margin: 0 auto;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 175px;
+        left: 160px;
+    }
+
+    .eyes2 {
+        bottom: 195px;
+        left: 220px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 192px;
+        left: 160px;
+    }
+
+    .pupils2 {
+        bottom: 201px;
+        left: 220px;
+    }
+    
+    .bubble {
+        bottom: 90px;
+        left: 175px;
+    }
+    
+    .section__description {
+        width: 310px;
+}
+    
+    form, input, textarea {
+        width: 300px;
+}
+    .error {
+        width: 300px;
+        font-size: 14px;
+    }
+}
+
+/* iPhone 6 7 8 Plus */
+@media screen and (max-width: 499px) {
+    #logo {
+        transform: scale(0.7);
+        position: absolute;
+        left: -10px;
+    }
+    
+    #rugBackground {
+        background-size: 145vh;
+    }
+
+    .mobile-arrow {
+        top: 85vh;
+    }
+    
+    .about {
+        height: auto;
+    }
+    
+    .about__text {
+        font-size: 1.2em;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .about__content {
+        width: 380px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .about__profile, .about__description {
+        width: 300px;
+        margin: 20px auto;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 175px;
+        left: 80px;
+    }
+
+    .eyes2 {
+        bottom: 195px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 192px;
+        left: 80px;
+    }
+
+    .pupils2 {
+        bottom: 201px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 90px;
+        left: 100px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+    
+    .section__description {
+        width: 310px;
+        font-size: 1em;
+}
+    
+    form, input, textarea {
+        width: 300px;
+}
+    .error {
+        width: 250px;
+        font-size: 14px;
+}
+}
+
+/* iPhone 6 7 8 */
+@media screen and (max-width: 375px) {
+    #logo {
+        transform: scale(0.65);
+        position: absolute;
+        top: 33vh;
+        left: -30px;
+    }
+    
+    #rugBackground {
+        background-size: 145vh;
+        background-position: center;
+    }
+
+    .mobile-arrow {
+        top: 85vh;
+    }
+    
+    .about {
+        height: auto;
+    }
+    
+    .about__content {
+        width: 360px;
+        margin: 0 auto;
+        padding: 0;
+    }
+  
+    .about__description {
+        width: 300px;
+        margin: 20px auto;
+        padding: 0;
+    }
+    
+    .about__profile {
+        width: 250px;
+        margin: 20px 25px;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 140px;
+        left: 90px;
+    }
+
+    .eyes2 {
+        bottom: 155px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 157px;
+        left: 90px;
+    }
+
+    .pupils2 {
+        bottom: 161px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 66px;
+        left: 100px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+    
+    .section__description {
+        width: 310px;
+}
+    
+    form, input, textarea {
+        width: 300px;
+}
+    .error {
+        width: 300px;
+        font-size: 14px;
+}
+    
+}
+
+/* iPhone 5 */
+@media screen and (max-width: 320px) {
+    #logo {
+        transform: scale(0.5);
+        position: absolute;
+        top: 28vh;
+        left: -55px;
+    }
+    
+    #rugBackground {
+        background-size: 145vh;
+        background-position: center;
+    }
+
+    .mobile-arrow {
+        top: 85vh;
+    }
+    
+    .about {
+        height: auto;
+    }
+    
+    .about__content {
+        width: 320px;
+        margin: 0 auto;
+        padding: 0;
+    }
+  
+    .about__description {
+        width: 300px;
+        margin: 20px auto;
+        padding: 0;
+    }
+    
+    .about__profile {
+        width: 250px;
+        margin: 20px 25px;
+    }
+    
+    .eyes, .eyes2 {
+        bottom: 140px;
+        left: 90px;
+    }
+
+    .eyes2 {
+        bottom: 155px;
+        left: 148px;
+    }
+
+    .pupils, .pupils2 {
+        bottom: 157px;
+        left: 90px;
+    }
+
+    .pupils2 {
+        bottom: 161px;
+        left: 150px;
+    }
+    
+    .bubble {
+        bottom: 66px;
+        left: 100px;
+    }
+    
+    .work {
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+    
+    .section__description {
+        width: 280px;
+        font-size: 1em;
+}
+    
+    form, input, textarea {
+        width: 250px;
+}
+    
+    .error {
+        width: 280px;
+        font-size: 14px;
+}
+}
